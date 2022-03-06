@@ -36,8 +36,8 @@ npx tailwindcss init -p
 
 ```bash
 @import "tailwindcss/base";
-@tailwind "tailwindcss/components";
-@tailwind "tailwindcss/utilities";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 ```
 
